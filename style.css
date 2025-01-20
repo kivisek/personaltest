@@ -13,17 +13,17 @@
 
 @keyframes breathing {
     0% {
-        box-shadow: #777 0 0 80px;
+        box-shadow: #bbb 0 0 80px;
     }
-    50% {
-        box-shadow: #555 0 0 50px;
+    25% {
+        box-shadow: #777 0 0 50px;
     }
     100% {
-        box-shadow: #777 0 0 80px;
+        box-shadow: #bbb 0 0 80px;
     }
 }
 
-/* @keyframes moving {
+@keyframes moving {
     0% {
         transform: rotate(-180deg);
     }
@@ -57,7 +57,7 @@
     100% {
         transform: rotate(0deg);
     }
-} */
+}
 
 @keyframes glowing {
     0% {
@@ -109,7 +109,7 @@ body .flyingblocks .color {
     filter: blur(130px);
 }
 
-/* body .flyingblocks .c1 {
+body .flyingblocks .c1 {
     background: #065291;
     left: -40%;
     animation: moving infinite linear 120s;
@@ -122,20 +122,6 @@ body .flyingblocks .c2 {
     background: #17a749;
     animation: moving2 infinite linear 140s;
     z-index: 1;
-} */
-
-body .flyingblocks .c1 {
-    background: #065291;
-    left: -50%;
-    z-index: 2;
-    transform: rotate(70deg);
-}
-
-body .flyingblocks .c2 {
-    left: 130%;
-    background: #17a749;
-    z-index: 1;
-    transform: rotate(70deg);
 }
 
 #main {
@@ -146,7 +132,7 @@ body .flyingblocks .c2 {
     margin: auto;
     padding: 20px;
     border-radius: calc(20px + var(--block-corner));
-    animation: breathing infinite forwards 4s;
+    animation: breathing infinite linear 4s;
     z-index: 1;
     display: flex;
     flex-direction: column;
