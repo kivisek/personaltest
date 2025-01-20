@@ -206,9 +206,12 @@ body .flyingblocks .c2 {
 
 #main .group .block .container.scrollable div.list {
     margin-top: 10px;
-    max-height: 203px;
+    height: max-content;
     overflow-y: scroll;
     overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
 }
 
 #main .group .block .container.scrollable div.list::-webkit-scrollbar {
@@ -226,7 +229,6 @@ body .flyingblocks .c2 {
 
 #main .group .block .container.scrollable div.list p.cursive {
     color: #888;
-    font-style: italic;
 }
 
 #main .group .block .container p {
@@ -454,10 +456,6 @@ body .flyingblocks .c2 {
     z-index: 5;
 }
 
-#main .group .block div.container.text.smaller_spacing p {
-    padding: 1.3px 0;
-}
-
 #main .group .block a.link {
     text-decoration: none;
 }
@@ -561,7 +559,7 @@ body .flyingblocks .c2 {
     }
 }
 
-@media screen and (width > 1000px) and (height < 740px) {
+@media screen and (width > 1000px) and (height < 630px) {
     #main {
         margin: 50px auto;
     }
