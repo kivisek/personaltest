@@ -22,7 +22,7 @@
         box-shadow: #777 0 0 80px;
     }
 }
-/**/
+
 @keyframes moving {
     0% {
         transform: rotate(-180deg);
@@ -250,7 +250,7 @@ body .flyingblocks .c2 {
     color: transparent;
     margin-left: -0.5px;
     background: #222;
-    padding: 1px 5px 1px 7px;
+    padding: 1px 5px 3px 7px;
     margin-top: 3px;
     border-radius: 10px;
     transition: var(--transition-time);
