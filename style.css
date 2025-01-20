@@ -22,7 +22,7 @@
         box-shadow: #777 0 0 80px;
     }
 }
-
+/**/
 @keyframes moving {
     0% {
         transform: rotate(-180deg);
