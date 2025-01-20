@@ -296,17 +296,6 @@ body .flyingblocks .c2 {
     transition: var(--transition-time);
 }
 
-#main .group .block .container .flag {
-    height: 21px;
-    width: auto;
-    border-radius: 5px;
-    margin-left: 8px;
-    margin-right: 1.5px;
-    position: relative;
-    top: 2.5px;
-    transition: var(--transition-time);
-}
-
 #main .group .block .container p *[href] {
     text-decoration: none;
     font-style: italic;
@@ -362,11 +351,22 @@ body .flyingblocks .c2 {
     border-radius: 0px 0px var(--block-corner) var(--block-corner);
 }
 
-#main .group .block .container img {
+#main .group .block .container img:not(.flag) {
     width: 100%;
     border-radius: var(--block-corner);
     -webkit-user-drag: none;
     filter: var(--img-filter);
+}
+
+#main .group .block .container .flag {
+    height: 21px;
+    width: auto;
+    border-radius: 5px;
+    margin-left: 8px;
+    margin-right: 1.5px;
+    position: relative;
+    top: 2.5px;
+    transition: var(--transition-time);
 }
 
 #main .group .block .container h1 {
