@@ -1,4 +1,4 @@
-﻿/* Variables */
+/* Variables */
 
 :root {
     --main-bg: #222;
@@ -474,7 +474,7 @@ body .flyingblocks .c2 {
     #main {
         width: max-content;
         height: max-content;
-        margin: 100px auto;
+        margin: 50px auto;
     }
     #main .group {
         flex-direction: row;
@@ -519,7 +519,7 @@ body .flyingblocks .c2 {
     #main {
         width: max-content;
         height: max-content;
-        margin: 100px auto;
+        margin: 50px auto;
     }
     #main .group {
         flex-direction: row;
@@ -562,7 +562,7 @@ body .flyingblocks .c2 {
 
 @media screen and (width > 1200px) and (height < 740px) {
     #main {
-        margin: 100px auto;
+        margin: 50px auto;
     }
 }
 
@@ -576,7 +576,7 @@ body .flyingblocks .c2 {
     #main {
         width: max-content;
         height: max-content;
-        margin: 100px auto;
+        margin: 50px auto;
     }
     #main .group {
         flex-direction: column;
