@@ -13,13 +13,13 @@
 
 @keyframes breathing {
     0% {
-        box-shadow: #bbb 0 0 80px;
+        box-shadow: #777 0 0 80px;
     }
     25% {
-        box-shadow: #777 0 0 50px;
+        box-shadow: #555 0 0 50px;
     }
     100% {
-        box-shadow: #bbb 0 0 80px;
+        box-shadow: #777 0 0 80px;
     }
 }
 
@@ -132,7 +132,7 @@ body .flyingblocks .c2 {
     margin: auto;
     padding: 20px;
     border-radius: calc(20px + var(--block-corner));
-    animation: breathing infinite linear 4s;
+    animation: breathing infinite ease-in-out 4s;
     z-index: 1;
     display: flex;
     flex-direction: column;
