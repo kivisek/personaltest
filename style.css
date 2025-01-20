@@ -471,7 +471,7 @@ body .flyingblocks .c2 {
 
 /* Responsibility */
 
-@media screen and (width >= 750px) and (width < 1200px) and (height >= 740px) {
+@media screen and (width >= 750px) and (width < 1050px) and (height >= 740px) {
     #main {
         width: max-content;
         height: max-content;
@@ -516,7 +516,7 @@ body .flyingblocks .c2 {
     }
 }
 
-@media screen and (width >= 750px) and (width < 1200px) and (height < 740px) {
+@media screen and (width >= 750px) and (width < 1050px) and (height < 740px) {
     #main {
         width: max-content;
         height: max-content;
@@ -561,13 +561,13 @@ body .flyingblocks .c2 {
     }
 }
 
-@media screen and (width > 1200px) and (height < 740px) {
+@media screen and (width > 1000px) and (height < 740px) {
     #main {
         margin: 50px auto;
     }
 }
 
-@media screen and (width > 740px) and (height > 1100px) {
+@media screen and (width > 740px) and (height > 950px) {
     #main {
         margin: auto;
     }
