@@ -367,6 +367,7 @@ body .flyingblocks .c2 {
     position: relative;
     top: 2.5px;
     transition: var(--transition-time);
+    -webkit-user-drag: none;
 }
 
 #main .group .block .container h1 {
